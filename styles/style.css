@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  
+  .landing-img {
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .landing-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .nav-bar{
+    position: fixed;
+    background-color:azure;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .nav-bar {
+      display: none;
+    }
+  }
+  
+  .logo{
+    background-image: url(/lab-css-spotify-clone/images/spotify-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: auto;
+    margin: 5px;
+   
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  li{
+    padding: 0 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    background-color: #168dcdb5;
+    color: aliceblue;
+  }
+
+  .info-text{
+    text-align: center;
+  }
+
+  hr {
+    width: 229px;
+    color: #168CCD;
+    border-style:solid;
+    margin-top: -15px ;
+    background-color: #168CCD;
+  }
+
+  .info-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+
+.icons{
+    width: 100px;
+    height: 90px;
+}
+
+.icons-info{
+    height: 200px;
+}
+
+.info-img >*{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
