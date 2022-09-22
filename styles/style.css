@@ -8,6 +8,7 @@ White: #FFF
 */
 
 body {
+    padding: 0 ;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     
@@ -16,7 +17,14 @@ body {
   h1 {
     font-size: 50px;
   }
+
+  h4{
+    color: #168CCD;
+    font-size: larger;
+  }
+
   
+
   .landing-img {
     background-image: url(/lab-css-spotify-clone/images/landing.jpg);
     height: 500px;
@@ -42,6 +50,7 @@ body {
     height: 50px;
     display: flex;
     justify-content: space-between;
+    opacity: 90%;
   }
 
   @media only screen and (max-width: 450px) {
@@ -98,6 +107,16 @@ body {
     padding: 20px 40px;
   }
 
+  @media only screen and (max-width: 450px) {
+    .info-img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1px 10px;
+      
+    }
+  }
+
 .icons{
     width: 100px;
     height: 90px;
@@ -115,4 +134,100 @@ body {
     padding: 10px;
     text-align: center;
     align-items: center;
+}
+
+.final{
+    color: aliceblue;
+    background-color: #168CCD;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.icono-final > img {
+width: 80px;
+padding-top: 168px;
+padding-right: 60px;
+}
+
+@media only screen and (max-width: 450px) {
+  .icono-final > img {
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    }
+}
+
+.imagen > img{
+  width: 200px;
+}
+
+@media only screen and (max-width: 450px) {
+  .imagen > img{
+    width: 100%;
+  }
+}
+
+.final-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px
+}
+
+@media only screen and (max-width: 450px) {
+  .final-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px
+  }
+}
+
+.texto {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+  .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    }
+}
+
+
+.final-titulo{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.final-titulo > hr {
+    width: 400px;
+    color: #ffffff;
+    border-style:solid;
+    margin-top: -15px ;
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 450px) {
+  .final-titulo > hr {
+    width: 229px;
+    color: #ffffff;
+    border-style:solid;
+    margin-top: -15px ;
+    background-color: #ffffff;
+}
 }
