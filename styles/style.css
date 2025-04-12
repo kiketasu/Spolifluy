@@ -26,7 +26,7 @@ body {
   
 
   .landing-img {
-    background-image: url(/Spolifluy/images/landing.jpg);
+    background-image: url(/spotify-clone/images/landing.jpg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body {
   }
   
   .logo{
-    background-image: url(/Spolifluy/images/spotify-logo.png);
+    background-image: url(/spotify-clone/images/spotify-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 150px;
